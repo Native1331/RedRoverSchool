@@ -16,6 +16,12 @@ public class HW2 {
         System.out.println(multiplication);
         System.out.println(division);
         System.out.println(remainder);
+        System.out.println(a*1.0/b);//a*1.0 станет типом double либо а+0
+        //Приведение типа- double d = (double)3.1;
+        //System.out.println(double(a/b)); Плохая практика-лучше так не делать
+        System.out.println("a mod b = " + a % b); //Остаток от деления
+        System.out.println("a is odd "+ a % 2);
+        System.out.println("b is odd "+ b % 2);
 
         int c=(a%2);
         if (c==0){
@@ -25,9 +31,8 @@ public class HW2 {
         }
 
 
-        String grinningFace = "\uD83D\uDE42";
 
-        System.out.println(grinningFace);
+        System.out.println("\uD83D\uDE00");
 
 
     }
