@@ -9,6 +9,7 @@ public class HW2 {
         int multiplication = a*b;
         int division = a/b;
         int remainder = a%b;
+        byte f = (byte) 128;
 
 
         System.out.println(sum);

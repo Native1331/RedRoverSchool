@@ -26,7 +26,7 @@ public class HW3 {
         int d = 20;
         int e = (c+d)%2;
 
-        if (e==0) {
+        if (e==0) {//можно написать if(a % 2 == 0)-четная if(a % 2 == 1)
             System.out.println("maybe a and b are even");
         } else  {
             System.out.println("some variable is odd");
@@ -41,6 +41,23 @@ public class HW3 {
 ●	значение переменной между 5 и 40 включительно - если это правда
 ●	значение переменной меньше 5 или больше 40 - если предыдущие условие ложное */
 
+        int f =155;
 
+        if(f>10){
+            System.out.println("Больше 10");
+        }
+        if(f<100){
+            System.out.println("Меньше 100" );
+        }
+        if((f/2)>20){
+            System.out.println("Результат деления на 2 больше 20" );
+        }
+      /*  if !(5<=f<=40){
+            System.out.println("Значение переменной между 5 и 40 включительно");
+        }else {
+            System.out.println("Значение переменной между 5 или больше 40 включительно");
+        }
+
+*/
     }
 }
