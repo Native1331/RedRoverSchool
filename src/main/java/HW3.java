@@ -24,13 +24,13 @@ public class HW3 {
 ●	some variable is odd - если сумма переменных нечетная*/
         int c = 10;
         int d = 20;
-        int e = (c+d)%2;
+        int e = (c + d) % 2;
 
-        if (e==0) {//можно написать if(a % 2 == 0)-четная if(a % 2 == 1)
+        if (e == 0) {//можно написать if(a % 2 == 0)-четная if(a % 2 == 1)
             System.out.println("maybe a and b are even");
-        } else  {
+        } else {
             System.out.println("some variable is odd");
-                }
+        }
 
 /*Задача №3
 
@@ -41,23 +41,23 @@ public class HW3 {
 ●	значение переменной между 5 и 40 включительно - если это правда
 ●	значение переменной меньше 5 или больше 40 - если предыдущие условие ложное */
 
-        int f =155;
+        int f = 155;
 
-        if(f>10){
+        if (f > 10) {
             System.out.println("Больше 10");
         }
-        if(f<100){
-            System.out.println("Меньше 100" );
+        if (f < 100) {
+            System.out.println("Меньше 100");
         }
-        if((f/2)>20){
-            System.out.println("Результат деления на 2 больше 20" );
+        if ((f / 2) > 20) {
+            System.out.println("Результат деления на 2 больше 20");
         }
-      /*  if !(5<=f<=40){
+        if (f>=5 && f<=40){
             System.out.println("Значение переменной между 5 и 40 включительно");
-        }else {
-            System.out.println("Значение переменной между 5 или больше 40 включительно");
+        };
+        if (f<5 || f>40) { // или
+            System.out.println("Значение переменной меньше 5 или больше 40");
         }
 
-*/
     }
 }
