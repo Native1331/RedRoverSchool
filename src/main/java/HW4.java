@@ -12,19 +12,22 @@ public class HW4 {
         использовать конструкцию if для определения кратности (цикл с шагом 1, i = i + 1);
         без использования конструкции if (шаг цикла на ваше усмотрение).*/
         int i;
-        for (i = 0; i < 16; i = i + 1) {
+        for (i = 0; i < 16; i = i + 1) {//for(int i=0; < 16; i = i + 1 )
             System.out.println(i);
         }
         int a;
-        for (a = 5 * 5; a < 10000; a = a * 5) {
+        for (a = 5; a < 10000; a = a * 5) {
             System.out.println(a);
         }
 
         int b;
-        for (b = 40; b <= 60; b = b + 4) {
-            System.out.println(b);
+        for (b = 40; b <= 60; b = b + 1) {
+            if (i % 4 == 0)
+                System.out.println(b);
         }
-
+        for (int c = 40; c <= 60; c = c + 4) {
+            System.out.println(c);
+        }
       /*  if (b >= 40 || b <= 60) {
             for (b =40/4;  ; b = b + 1) ;
             System.out.println(b);
