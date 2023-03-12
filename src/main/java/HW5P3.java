@@ -18,10 +18,11 @@ public class HW5P3 {
         for (int i = 9; i > 0; i--) {
             System.out.print(i + " ");
         }
-         for (int j = 0; j < 10; j++) {
+        for (int j = 0; j < 10; j++) {
             System.out.print(j + " ");
         }
         System.out.println();
+        System.out.print("  ");
         for (int k = 8; k > 0; k--) {
             System.out.print(k + " ");
         }
@@ -29,13 +30,15 @@ public class HW5P3 {
             System.out.print(l + " ");
         }
         System.out.println();
+        System.out.print("    ");
         for (int m = 7; m > 0; m--) {
-            System.out.print(m + " ");
+            System.out.print( m + " ");
         }
-                for (int n = 0; n < 8; n++) {
+        for (int n = 0; n < 8; n++) {
             System.out.print(n + " ");
         }
         System.out.println();
+        System.out.print("      ");
         for (int o = 6; o > 0; o--) {
             System.out.print(o + " ");
         }
@@ -44,6 +47,7 @@ public class HW5P3 {
             System.out.print(p + " ");
         }
         System.out.println();
+        System.out.print("        ");
         for (int q = 5; q > 0; q--) {
             System.out.print(q + " ");
         }
@@ -51,40 +55,48 @@ public class HW5P3 {
             System.out.print(r + " ");
         }
         System.out.println();
-        for (int i = 4; i >0 ; i--) {
-            System.out.print(i + " ");}
+        System.out.print("          ");
+        for (int i = 4; i > 0; i--) {
+            System.out.print(i + " ");
+        }
         for (int j = 0; j < 5; j++) {
             System.out.print(j + " ");
-            }
+        }
         System.out.println();
-        for (int i = 3; i >0 ; i--) {
-            System.out.print(i+" ");
+        System.out.print("            ");
+        for (int i = 3; i > 0; i--) {
+            System.out.print( i + " ");
 
         }
         for (int i = 0; i < 4; i++) {
-            System.out.print(i+" ");
+            System.out.print(i + " ");
         }
         System.out.println();
-        for (int i = 2; i > 0 ; i--) {
-            System.out.print(i+" ");}
+        System.out.print("              ");
+        for (int i = 2; i > 0; i--) {
+            System.out.print(i + " ");
+        }
         for (int i = 0; i < 3; i++) {
-            System.out.print(i+" ");
+            System.out.print(i + " ");
         }
         System.out.println();
-        for (int i = 1; i > 0 ; i--) {
-            System.out.print(i+" ");}
+        System.out.print("                ");
+        for (int i = 1; i > 0; i--) {
+            System.out.print(i + " ");
+        }
         for (int i = 0; i < 1; i++) {
-            System.out.print(i+" ");
+            System.out.print(i + " ");
         }
-        System.out.println();
+        System.out.println("  ");
+        System.out.print("                 ");
         for (int i = 0; i <= 0; i++) {
             System.out.print(i);
 
         }
 
 
-            }
-        }
+    }
+}
 
 
 
