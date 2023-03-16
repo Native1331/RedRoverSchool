@@ -13,7 +13,7 @@ public class HW5P3 {
             0
 
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) {/*
 
         for (int i = 9; i > 0; i--) {
             System.out.print(i + " ");
@@ -92,11 +92,25 @@ public class HW5P3 {
         for (int i = 0; i <= 0; i++) {
             System.out.print(i);
 
+        }*/
+        for (int i = 10; i >= 0; i--) {
+            for (int j = 10; j > i; j--) {
+                System.out.print("  ");
+
+            }
+            for (int j = i - 1; j > 0; j--) {
+                System.out.print(j + " ");
+            }
+            for (int j = 0; j < i; j++) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
         }
-
-
     }
 }
+
+
+
 
 
 
