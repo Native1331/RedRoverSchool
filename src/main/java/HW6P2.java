@@ -39,24 +39,34 @@ public class HW6P2 {
         int index = s2.indexOf("рит");
         int index2 = s2.indexOf("рит", index + 1);
         while (index != -1) {
-            System.out.println();
-
-
+            System.out.println(index);
+            index = s.indexOf("рит", +1);
         }
+
         System.out.println(index);
         System.out.println(index2);
         System.out.println(s2.indexOf("рит"));
         System.out.println(s2.indexOf("рит", 6));
 
 
-        String[][] array = {{"Привет", "всем", "кто" }, {"изучает", "язык", "программирования" }, {"java" }};
+        String[][] array = {{"Привет", "всем", "кто"}, {"изучает", "язык", "программирования"}, {"java"}};
         /*необходимо подсчитать количество строк в массиве,которые не содержат буквы “е”.*/
-        for (int i = 0; i < array.length; i++) {
+        for (
+                int i = 0;
+                i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                /*  if (array.)*/
-
+                if (array[i][j].indexOf('е') == -1) {
+                    count++;
+                    /*if(!array[i][j] contains('е')) {
+                    count++;}
+                     */
+                }
             }
-
         }
     }
 }
+
+
+
+
+
