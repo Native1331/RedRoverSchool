@@ -2,7 +2,7 @@ package HW8P2;
 
 
 
-public class Employee extends EmployeeBase{
+public class Employee {
     /*Задaча №1
     Необходимо создать класс Employee со следующими методами:
 ●	getName - получить имя
@@ -10,20 +10,27 @@ public class Employee extends EmployeeBase{
 ●	getBaseSalary - базовая ставка
 ●	setBaseSalary
 }*/
+    private  String name;
+    private int baseSalary;
+
+    public Employee(String name, int baseSalary) {
+        this.name = name;
+        this.baseSalary = baseSalary;
+    }
+
     public String getName() {
-        return (getName());
+        return name;
     }
 
-    public String setName(String name) {
-        return (setName(name));
+    public int getBaseSalary() {
+        return baseSalary;
     }
 
-   public int getBaseSalary(){
+    public void setName(String name) {
+        this.name = name;
+    }
 
-        return(getBaseSalary());
-   }
-    public int setBaseSalary(int salary){
-
-        return(salary);
+    public void setBaseSalary(int baseSalary) {
+        this.baseSalary = baseSalary;
     }
 }

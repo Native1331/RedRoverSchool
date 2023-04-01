@@ -1,6 +1,6 @@
 package HW8P2;
 
-public class Worker extends EmployeeBase{
+public class Worker extends Employee {
    /* Задача №2
 
     Необходимо создать класс Worker где метод getSalaryWorker  будет возвращать зарплату, базовую ставку.
@@ -17,10 +17,12 @@ public class Worker extends EmployeeBase{
      * (<количество подчиненных> / 100 * 9). Если количество подчиненных 0, то результат как у обычного рабочего.
     */
 
-    int salary;
+    public Worker(String name, int baseSalary) {
+        super(name, baseSalary);
+    }
 
-    public getSalaryWorker(int days){
-        return(int) salary, (salary /days);
+    public int getSalaryWorker() {
+        return getBaseSalary();
     }
-    }
+}
 
