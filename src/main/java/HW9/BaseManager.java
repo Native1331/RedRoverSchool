@@ -13,10 +13,12 @@ public class BaseManager extends Employee {
     }
 
     public int getNumberOfSubordinates() {
+
         return numberOfSubordinates;
     }
 
     public void setNumberOfSubordinates(int numberOfSubordinates) {
+
         numberOfSubordinates = numberOfSubordinates;
     }
 

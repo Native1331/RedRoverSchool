@@ -4,17 +4,17 @@ import ПройденныеУроки.Uravnenie;
 public class MyClass {
     private String name;
 
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
         Employee employee = new Employee("Name", 1);
         System.out.println(employee.getName());
 
-        Uravnenie uravnenie = new Uravnenie.Builder()
+        Uravnenie uravnenie = new Uravnenie.builder()
                 .setParam(1)
              //   .setStringParam(" ")
                 .setDoubleParam(1d)
                 .build();
         System.out.println(uravnenie);
-    }
+    }*/
 
 
     void cals() {

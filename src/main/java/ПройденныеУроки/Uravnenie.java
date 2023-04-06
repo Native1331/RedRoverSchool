@@ -2,7 +2,7 @@ package ПройденныеУроки;
 
 import java.lang.module.ModuleDescriptor;
 
-public class Uravnenie {
+public class Uravnenie {/*
     int param;
     int param1;
     String  param2;
@@ -48,5 +48,5 @@ public class Uravnenie {
     }
 
 
-
+*/
 }
