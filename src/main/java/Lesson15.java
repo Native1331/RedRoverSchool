@@ -1,4 +1,5 @@
 import java.awt.print.Printable;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -32,6 +33,10 @@ public class Lesson15 implements Printable {
      System.out.println(str.getField());
      GenericExample<Integer> in = new GenericExample<>(123);
      System.out.println(in.getField());*/
+    List<Printable>printables= Array.asList(//рекомендованный способ, используется в Scala
+            new Office("Seatle"),
+            new Employee("Sam Smith", 10000)
+    );
     List<HW8P2.Employee> list = new ArrayList<>();
     list.add(new Employee(John, 2000));
     list.add(new Employee(Klara, 1000));
