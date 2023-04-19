@@ -47,6 +47,7 @@ public class Lesson15 implements Printable {
         System.out.println(o.getPrintable);
     }*/
 
+
     printList(employee);
 
     List<Integer> ints = new ArrayList<>();
